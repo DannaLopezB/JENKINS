@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    tools {
+        jdk 'jdk-17' // Usa el nombre que tienes configurado en Jenkins
+        maven 'maven-3.8.6' // O el que tengas en tu Jenkins
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                sh './mvnw clean install -DskipTests'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                sh './mvnw test'
+            }
+        }
+    }
+
+    post {
+        always {
+            junit '**/target/surefire-reports/*.xml'
+        }
+    }
+}
