@@ -39,10 +39,4 @@ public class EggProductionRest {
     public Mono<Void> delete(@PathVariable Integer id) {
         return service.delete(id);
     }
-
-    @PatchMapping("/restore/{id}")
-    public Mono<EggProductionModel> restore(@PathVariable Integer id) {
-        return service.restore(id);
-    }
-
 }

@@ -18,7 +18,4 @@ public class EggProductionModel {
     private Integer eggsKilo;
     private BigDecimal priceKilo;
     private LocalDate registrationDate;
-
-    private Boolean active;
-    
 }

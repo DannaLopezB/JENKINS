@@ -38,14 +38,4 @@ public class EggProductionService {
         return repository.findById(id)
                 .flatMap(existing -> repository.deleteById(id));
     }
-
-    public Mono<EggProductionModel> restore(Integer id) {
-        return repository.findById(id)
-                .flatMap(model -> {
-                    model.setActive(true);
-                    return repository.save(model);
-                });
-    }
-    
-    
 }
