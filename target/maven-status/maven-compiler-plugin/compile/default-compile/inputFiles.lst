@@ -1,0 +1,9 @@
+/workspaces/BackEndPRS/src/main/java/pe/edu/vallegrande/eggs/EggsApplication.java
+/workspaces/BackEndPRS/src/main/java/pe/edu/vallegrande/eggs/model/AdditionalCostModel.java
+/workspaces/BackEndPRS/src/main/java/pe/edu/vallegrande/eggs/model/EggProductionModel.java
+/workspaces/BackEndPRS/src/main/java/pe/edu/vallegrande/eggs/repository/AdditionalCostRepository.java
+/workspaces/BackEndPRS/src/main/java/pe/edu/vallegrande/eggs/repository/EggProductionRepository.java
+/workspaces/BackEndPRS/src/main/java/pe/edu/vallegrande/eggs/rest/AdditionalCostRest.java
+/workspaces/BackEndPRS/src/main/java/pe/edu/vallegrande/eggs/rest/EggProductionRest.java
+/workspaces/BackEndPRS/src/main/java/pe/edu/vallegrande/eggs/service/AdditionalCostService.java
+/workspaces/BackEndPRS/src/main/java/pe/edu/vallegrande/eggs/service/EggProductionService.java
