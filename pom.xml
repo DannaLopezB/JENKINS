@@ -65,6 +65,11 @@
             <scope>test</scope>
         </dependency>
 
+         <properties>
+          <sonar.organization>dannalopezb</sonar.organization>
+           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+                  </properties>
+
         <!-- Añadido para Mockito -->
         <dependency>
             <groupId>org.mockito</groupId>
